@@ -1,4 +1,28 @@
 var plugins = [{
+      name: 'gatsby-plugin-styled-components',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-styled-components/gatsby-ssr.js'),
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
+    },{
+      name: 'gatsby-plugin-offline',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-offline/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-google-fonts',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js'),
+      options: {"plugins":[],"fonts":["Montserrat:300,400,500,700","Inter:wght@200,300,400,500,"],"display":"swap"},
+    },{
+      name: 'gatsby-plugin-image',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-react-helmet',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-manifest',
+      plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","display":"minimal-ui","icon":"src/images/rummel-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"21d726ae61edb83472d10ce55ad2a518"},
+    },{
       name: 'partytown',
       plugin: require('/Users/magdalenaaliaga/Documents/2023/Rummel-Bookings/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
