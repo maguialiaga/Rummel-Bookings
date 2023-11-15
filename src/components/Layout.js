@@ -18,10 +18,6 @@ export default function Layout({ children }) {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <LayoutStyles>
-          {children}
-          {/* Content of each page, will inyect in children, todos van a tener NavBar y Footer*/}
-        </LayoutStyles>
       </ThemeProvider>
     </>
   );

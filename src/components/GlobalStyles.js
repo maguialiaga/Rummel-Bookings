@@ -1,6 +1,6 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-export default GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   *{
   box-sizing: border-box;
   margin: 0;
@@ -8,3 +8,5 @@ export default GlobalStyles = createGlobalStyle`
   font-family: 'Montserrat', sans-serif;
   }
 `;
+
+export default GlobalStyles;
