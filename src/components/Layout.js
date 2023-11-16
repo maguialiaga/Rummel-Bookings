@@ -1,6 +1,7 @@
 import React from "react";
 import GlobalStyles from "../components/GlobalStyles";
 import { ThemeProvider } from "styled-components";
+//import NavBar from "../components/NavBar";
 
 const theme = {
   color: {
@@ -18,6 +19,7 @@ export default function Layout({ children }) {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
+        {children}
       </ThemeProvider>
     </>
   );

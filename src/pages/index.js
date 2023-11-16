@@ -2,7 +2,10 @@ import * as React from "react";
 import PreLoader from "../components/PreLoader";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
+import NavBar from "../components/NavBar";
+
 import { useState, useEffect } from "react";
+import ImageSlider from "../components/ImageSlider";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -20,6 +23,8 @@ export default function Home() {
       ) : (
         <Layout>
           <Seo title="Rummel Bookings" />
+          <NavBar></NavBar>
+          <ImageSlider></ImageSlider>
         </Layout>
       )}
     </>
