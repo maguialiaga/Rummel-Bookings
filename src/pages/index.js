@@ -22,7 +22,7 @@ export default function Home() {
         <PreLoader />
       ) : (
         <Layout>
-          <Seo title="Rummel Bookings" />
+          <Seo title="Rummel Label" />
           <NavBar></NavBar>
           <ImageSlider></ImageSlider>
         </Layout>

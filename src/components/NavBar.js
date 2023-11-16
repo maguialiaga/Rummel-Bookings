@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 import logo from "../assets/images/rummel-negro.png";
 import { FiMenu, FiX } from "react-icons/fi";
 import { IconContext } from "react-icons";
-import { Container } from "./GlobalStyles";
 
 //STYLES
 
