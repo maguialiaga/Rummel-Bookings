@@ -87,12 +87,12 @@ const ImageCardList = () => {
       // description: "Description for Card 1",
     },
     {
-      imageUrl: "./assets/images/gon.jpg",
+      imageUrl: `${agus}`,
       title: "DJOLEE",
       // description: "Description for Card 1",
     },
     {
-      imageUrl: "./assets/images/gon.jpg",
+      imageUrl: `${jero}`,
       title: "GESPONA",
       // description: "Description for Card 1",
     },
