@@ -6,7 +6,6 @@ import jero from "../assets/images/jero.jpg";
 import agus from "../assets/images/agus.jpg";
 import apo from "../assets/images/apo.jpg";
 import abuk from "../assets/images/abuk.jpg";
-import titulo from "../assets/images/titulo.png";
 
 // import NameSlider from "../components/NameSlider";
 import { Link } from "gatsby";
@@ -112,19 +111,19 @@ const ImageCardList = () => {
     {
       imageUrl: `${agus}`,
       title: "AGUSTIN GIRI",
-      link: "/agustingiri",
+      link: "agustingiri",
       // description: "Description for Card 1",
     },
     {
       imageUrl: `${abuk}`,
       title: "ABUK",
-      link: "/abuk",
+      link: "abuk",
       // description: "Description for Card 1",
     },
     {
       imageUrl: `${apo}`,
       title: "APO LUCIA",
-      link: "/apolucia",
+      link: "apolucia",
       // description: "Description for Card 1",
     },
   ];

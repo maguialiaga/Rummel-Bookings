@@ -54,6 +54,15 @@ const Slide = styled.div`
   transition: 750ms all ease-in-out;
 `;
 
+const TextOverlay = styled.div`
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  color: white;
+  font-size: 18px;
+  /* Additional styling for text overlay */
+`;
+
 const ChildrenWrapper = styled.div`
   position: absolute;
   top: 50%;
@@ -72,6 +81,7 @@ const Gradient = styled.div`
 
 const ImageSlider = ({
   images = [img1, img2],
+  texts = ["Text for 1", "Text for image 2"],
   autoPlay = true,
   autoPlayTime = 3000,
   children,
@@ -102,8 +112,11 @@ const ImageSlider = ({
             backgroundImage: `url(${imageUrl})`,
             marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
           }}
-        ></Slide>
+        >
+          <TextOverlay>{texts[index]}</TextOverlay>
+        </Slide>
       ))}
+
       <Gradient />
       <Indicator
         currentSlide={currentSlide}

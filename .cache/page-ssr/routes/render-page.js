@@ -2503,7 +2503,10 @@ function getForwards(collectedScripts) {
 
 exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
-  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default"))
+  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default")),
+  "component---src-pages-music-js": () => __webpack_require__.e(/*! import() | component---src-pages-music-js */ "component---src-pages-music-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/music.js?export=default */ "./src/pages/music.js?export=default")),
+  "component---src-pages-roaster-js": () => __webpack_require__.e(/*! import() | component---src-pages-roaster-js */ "component---src-pages-roaster-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/roaster.js?export=default */ "./src/pages/roaster.js?export=default")),
+  "component---src-templates-artist-template-js": () => __webpack_require__.e(/*! import() | component---src-templates-artist-template-js */ "component---src-templates-artist-template-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/templates/artistTemplate.js?export=default */ "./src/templates/artistTemplate.js?export=default"))
 };
 
 exports.head = {};
