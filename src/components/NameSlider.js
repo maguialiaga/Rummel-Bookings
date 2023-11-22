@@ -12,7 +12,9 @@ const SlideContainer = styled.div`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 9rem;
+  margin-top: 0.5rem;
+  position: absolute;
+  /* z-index behind the cards */
 `;
 
 // Keyframes
@@ -63,7 +65,7 @@ const LogosSlide = styled.div`
 `;
 
 const LogoImage = styled.img`
-  height: 100px;
+  height: 150px;
   margin: 0 30px;
 `;
 
