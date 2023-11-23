@@ -1,0 +1,75 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/static/rummel-negro-133447d31c50293d5e38bbf38eb74893.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/gon-d46933ae2fc375a558c103671c7cb635.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/nico-a295e5d8c6ed7369e2fe2a0895f14763.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/jero-6d2c97c862a3ca9b291e168b720e0033.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/agus-07a52067726cfb7d2d3449f9a3674eb7.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/apo-f3d617a2448cf6d1d4c9174ea00bad1a.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/abuk-dcca03bdc33c1f2cf5c737ebfab68dcd.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/rummel-blanco-83fd3522cf9abd1257f752af0651d4b0.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/slide-1-16727cfe102498f5594f8df2947e8e54.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/gonCover-b0e9550335af3b3aa5f806baf4c605cb.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/slide-2-16b064f130160e3f9dcef533f4c47365.png
+  Cache-Control: public, max-age=31536000, immutable
+/styles.725c0b97d404124c85e6.css
+  Cache-Control: public, max-age=31536000, immutable
+/app-34ba9cd0d1e31594bc63.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/framework-e1920fffb1cf79c01553.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/app-34ba9cd0d1e31594bc63.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-9192ae82929b3141db05.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---cache-caches-gatsby-plugin-offline-app-shell-js-5e33b1b5575e9017209a.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-c07b41de8d0a083c6317.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-music-js-e1bf204fecde2b02e606.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-roaster-js-ea1e1de4870116c2e511.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-artist-template-js-eeba9685174e93ae2249.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-e1920fffb1cf79c01553.js
+  Cache-Control: public, max-age=31536000, immutable
+/4464b967403d961dd4f7ef9942a770d277fb5e0e-06be83a273935a847b68.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-34ba9cd0d1e31594bc63.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-9192ae82929b3141db05.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---cache-caches-gatsby-plugin-offline-app-shell-js-5e33b1b5575e9017209a.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-c07b41de8d0a083c6317.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-music-js-e1bf204fecde2b02e606.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-roaster-js-ea1e1de4870116c2e511.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-artist-template-js-eeba9685174e93ae2249.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/framework-e1920fffb1cf79c01553.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/4464b967403d961dd4f7ef9942a770d277fb5e0e-06be83a273935a847b68.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
