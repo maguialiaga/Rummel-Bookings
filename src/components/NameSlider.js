@@ -12,7 +12,8 @@ const SlideContainer = styled.div`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
+  overflow: hidden;
   position: absolute;
   /* z-index behind the cards */
 `;

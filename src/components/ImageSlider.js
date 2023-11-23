@@ -37,6 +37,8 @@ const Indicator = ({ currentSlide, amountSlides, nextSlide }) => {
   );
 };
 
+const TextChanger = ({ currentSlide, nextSlide }) => {};
+
 const Wrapper = styled.div`
   height: 100vh;
   display: flex;
@@ -56,11 +58,10 @@ const Slide = styled.div`
 
 const TextOverlay = styled.div`
   position: absolute;
-  bottom: 20px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
+  bottom: 20px;
+  left: 20px;
   color: white;
   font-size: 18px;
-  /* Additional styling for text overlay */
 `;
 
 const ChildrenWrapper = styled.div`
@@ -81,7 +82,7 @@ const Gradient = styled.div`
 
 const ImageSlider = ({
   images = [img1, img2],
-  texts = ["Text for 1", "Text for image 2"],
+  texts = [`Djolee, Gespona - "Malabares"`, ""],
   autoPlay = true,
   autoPlayTime = 3000,
   children,
@@ -113,7 +114,7 @@ const ImageSlider = ({
             marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
           }}
         >
-          <TextOverlay>{texts[index]}</TextOverlay>
+          <TextOverlay style={{ color: "black" }}>{texts[index]}</TextOverlay>
         </Slide>
       ))}
 

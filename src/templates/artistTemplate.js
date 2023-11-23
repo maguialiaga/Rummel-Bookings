@@ -1,13 +1,14 @@
 import React from "react";
 import Layout from "../components/Layout";
 import NavBar from "../components/NavBar";
-import Gespona from "../components/Gespona";
+import Artist from "../components/Artist";
+//import NameSlider from "../components/NameSlider";
 
 function artistTemplate({ data }) {
   return (
     <Layout>
       <NavBar />
-      <Gespona />
+      <Artist />
     </Layout>
   );
 }
