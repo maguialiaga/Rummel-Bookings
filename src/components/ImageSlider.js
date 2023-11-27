@@ -58,10 +58,18 @@ const Slide = styled.div`
 
 const TextOverlay = styled.div`
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white;
-  font-size: 18px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  /* @media only screen and (max-width: 480px) {
+    top: 90%;
+    transition: 1s all ease-in-out;
+  } */
 `;
 
 const ChildrenWrapper = styled.div`
@@ -82,7 +90,10 @@ const Gradient = styled.div`
 
 const ImageSlider = ({
   images = [img1, img2],
-  texts = [`Djolee, Gespona - "Malabares"`, ""],
+  texts = [
+    `Djolee, Gespona - "Malabares"`,
+    `Agustin Giri, Djolee - "Caminos de Fuego" ft. Apo Lucia`,
+  ],
   autoPlay = true,
   autoPlayTime = 3000,
   children,
@@ -114,7 +125,11 @@ const ImageSlider = ({
             marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
           }}
         >
-          <TextOverlay style={{ color: "black" }}>{texts[index]}</TextOverlay>
+          {index === currentSlide && (
+            <TextOverlay style={{ color: "black" }}>
+              {texts[currentSlide]}
+            </TextOverlay>
+          )}
         </Slide>
       ))}
 

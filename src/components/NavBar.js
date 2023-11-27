@@ -18,6 +18,7 @@ const Nav = styled.nav`
   align-items: center;
   padding-right: 100px;
   padding-left: 50px;
+
   @media screen and (max-width: 960px) {
     padding-left: 20px;
     transition: 0.8s all ease;
@@ -84,6 +85,7 @@ const NavMenu = styled.ul`
 const NavItem = styled.li`
   height: 80px;
   cursor: pointer;
+  font-family: "Quicksand", sans-serif;
   @media screen and (max-width: 960px) {
     width: 100%;
     &:hover {
