@@ -61,7 +61,7 @@ const TextOverlay = styled.div`
   font-weight: 400;
   position: absolute;
   top: 95%;
-  left: 10%;
+  left: 7%;
   transform: translate(-20%, -50%);
   padding: 10px;
   justify-content: left;
