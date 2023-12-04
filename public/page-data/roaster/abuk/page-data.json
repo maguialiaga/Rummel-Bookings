@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-artist-template-js","path":"/roaster/abuk/","result":{"pageContext":{"title":"ABUK","description":"Description for Abuk"}},"staticQueryHashes":[],"slicesMap":{}}
+{"componentChunkName":"component---src-templates-artist-template-js","path":"/roaster/abuk/","result":{"pageContext":{"artist":{"title":"ABUK","description":"Description for Abuk","image":"abukCover.jpg"}}},"staticQueryHashes":[],"slicesMap":{}}

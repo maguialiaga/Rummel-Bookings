@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-artist-template-js","path":"/roaster/amadori/","result":{"pageContext":{"title":"AMADORI","description":"Description for Amadori"}},"staticQueryHashes":[],"slicesMap":{}}
+{"componentChunkName":"component---src-templates-artist-template-js","path":"/roaster/amadori/","result":{"pageContext":{"artist":{"title":"AMADORI","description":"Description for Amadori","image":"jeroCover.jpg"}}},"staticQueryHashes":[],"slicesMap":{}}

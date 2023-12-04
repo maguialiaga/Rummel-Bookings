@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
-const GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(["*{box-sizing:border-box;margin:0;padding:0;font-family:'Montserrat',sans-serif;}"]);
+const GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(["*{box-sizing:border-box;margin:0;padding:0;}"]);
 const Container = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "GlobalStyles__Container"
 })(["z-index:1;width:100%;max-width:1300px;margin-right:auto;margin-left:auto;padding-right:50px;padding-left:50px;@media screen and (max-width:991px){padding-right:30px;padding-left:30px;}"]);
@@ -86,7 +86,7 @@ const Slide = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.with
 })(["height:100%;width:100vw;flex-shrink:0;background-position:center;background-size:cover;transition:750ms all ease-in-out;"]);
 const TextOverlay = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "ImageSlider__TextOverlay"
-})(["position:absolute;bottom:20px;left:20px;color:white;font-size:18px;"]);
+})(["font-family:\"Montserrat\",sans-serif;font-weight:400;position:absolute;top:95%;left:10%;transform:translate(-20%,-50%);padding:10px;justify-content:left;align-items:center;text-align:left;transition:transform 2s ease-in-out;@media (max-width:1440px){top:95%;left:50%;justify-content:center;align-items:center;text-align:center;transform:translate(-50%,-50%);}"]);
 const ChildrenWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "ImageSlider__ChildrenWrapper"
 })(["position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);"]);
@@ -95,9 +95,9 @@ const Gradient = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.w
 })(["width:100%;height:100%;position:absolute;top:0;left:0;background-color:rgba(0,0,0,0.2);"]);
 const ImageSlider = ({
   images = [_assets_images_slide_1_png__WEBPACK_IMPORTED_MODULE_1__["default"], _assets_images_slide_2_png__WEBPACK_IMPORTED_MODULE_2__["default"]],
-  texts = [`Djolee, Gespona - "Malabares"`, ""],
+  texts = [`Djolee, Gespona - "Malabares"`, `Agustin Giri, Djolee - "Caminos de Fuego" ft. Apo Lucia`],
   autoPlay = true,
-  autoPlayTime = 3000,
+  autoPlayTime = 4000,
   children,
   ...props
 }) => {
@@ -121,11 +121,11 @@ const ImageSlider = ({
       backgroundImage: `url(${imageUrl})`,
       marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TextOverlay, {
+  }, index === currentSlide && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TextOverlay, {
     style: {
-      color: "black"
+      color: "white"
     }
-  }, texts[index]))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Gradient, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Indicator, {
+  }, texts[currentSlide]))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Gradient, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Indicator, {
     currentSlide: currentSlide,
     amountSlides: images.length,
     nextSlide: nextSlide
@@ -226,7 +226,7 @@ const NavMenu = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].ul.wit
 }) => click ? "0" : "-10px");
 const NavItem = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].li.withConfig({
   displayName: "NavBar__NavItem"
-})(["height:80px;cursor:pointer;@media screen and (max-width:960px){width:100%;&:hover{border:none;}}"]);
+})(["height:80px;cursor:pointer;font-family:\"Quicksand\",sans-serif;@media screen and (max-width:960px){width:100%;&:hover{border:none;}}"]);
 const NavLinks = (0,styled_components__WEBPACK_IMPORTED_MODULE_4__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link).withConfig({
   displayName: "NavBar__NavLinks"
 })(["color:black;display:flex;font-weight:500;align-items:center;text-decoration:none;padding:0.5rem 1rem;height:100%;&:hover{color:rgb(105,105,105);transition:all 0.3s ease;}@media screen and (max-width:960px){text-align:center;padding:2rem;width:100%;display:table;&:hover{color:rgb(105,105,105);transition:all 0.3s ease;}}"]);

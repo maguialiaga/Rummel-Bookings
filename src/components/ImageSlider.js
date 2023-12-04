@@ -57,19 +57,25 @@ const Slide = styled.div`
 `;
 
 const TextOverlay = styled.div`
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   position: absolute;
   top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 10%;
+  transform: translate(-20%, -50%);
   padding: 10px;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  text-align: center;
-  transition: transform 0.5s ease-in-out;
-  /* @media only screen and (max-width: 480px) {
-    top: 90%;
-    transition: 1s all ease-in-out;
-  } */
+  text-align: left;
+  transition: transform 2s ease-in-out;
+  @media (max-width: 1440px) {
+    top: 95%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
 `;
 
 const ChildrenWrapper = styled.div`
@@ -95,7 +101,7 @@ const ImageSlider = ({
     `Agustin Giri, Djolee - "Caminos de Fuego" ft. Apo Lucia`,
   ],
   autoPlay = true,
-  autoPlayTime = 3000,
+  autoPlayTime = 4000,
   children,
   ...props
 }) => {
@@ -126,7 +132,7 @@ const ImageSlider = ({
           }}
         >
           {index === currentSlide && (
-            <TextOverlay style={{ color: "black" }}>
+            <TextOverlay style={{ color: "white" }}>
               {texts[currentSlide]}
             </TextOverlay>
           )}

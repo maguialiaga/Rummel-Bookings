@@ -48,13 +48,17 @@ module.exports = {
       },
     },
 
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/assets/images`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
